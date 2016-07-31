@@ -1,0 +1,103 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif; */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* jumbotron header text */
+h1 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 6px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 4px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+p {
+ font-family: Montserrat, sans-serif;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: normal;
+ letter-spacing: normal;
+ line-height: 30px;
+ text-transform: none;
+}
+
+/* HEADER */
+
+.header .row {
+  margin: 10px;
+}
+
+.header .col-md-3 {
+  float: right;
+  margin-right: 60px;
+}
+
+.header li a {
+  line-height: 75px;
+  padding: 0;
+  background-color: transparent;
+  margin: 0 10px 0 10px;
+}
+
+.nav li a:hover, .nav li a:focus {
+  background-color: transparent;
+}
+
+.nav, .nav-pills {
+  float: right;
+  height: 75px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  height: 500px;
+  background: url("https://i.imgsafe.org/e450216abd.jpg") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+
+}
+
+/* SERVICES */
+
+/* WORK */
+
+/* ABOUT */
+
+/* REVIEWS */
+
+/* CONTACT */
+
+/* FOOTER */
+
+/* Media Queries */
