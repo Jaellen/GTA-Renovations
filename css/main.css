@@ -81,22 +81,56 @@ p {
   margin-bottom: 0;
 }
 
-.jumbotron h1 {
+.jumbotron h1, .jumbotron p {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
 
 }
 
+.parallax-window {
+    background: transparent;
+}
+
 /* SERVICES */
+.services .row {
+  margin: 20px;
+}
+
+.services img {
+  margin: 20px;
+}
+
+.services h3 {
+  color: #1b3160;
+  text-align: center;
+}
+
+
 
 /* WORK */
 
 /* ABOUT */
 
+.about .col-md-4 {
+  padding: 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #1b3160;
+}
+
+.about h3 {
+  color: #1b3160;
+}
 /* REVIEWS */
 
 /* CONTACT */
+
+.washington {
+  margin-top: 40px;
+}
 
 /* FOOTER */
 
