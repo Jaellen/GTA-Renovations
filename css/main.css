@@ -27,7 +27,7 @@ h2 {
 
 h3 {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 200;
   letter-spacing: 4px;
@@ -47,7 +47,7 @@ a {
 
 p {
   font-family: Esteban, Georgia, 'Times New Roman', serif;
-  font-size: 26px;
+  font-size: 22px;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -72,23 +72,23 @@ p {
 }
 
 .header li a {
-  line-height: 75px;
+
   padding: 0;
   margin: 0 10px 0 10px;
   background-color: transparent;
   color: #1b3160;
   font-size: 18px;
-  transition-duration: 0.3s;
+  border-radius: 0;
 }
 
 .header li a:hover {
-  color: #EEC550;
-  transition-duration: 0.3s;
+  color: #B36458;
+  border-bottom: 2px solid #B36458;
 }
 
 .nav, .nav-pills {
   float: right;
-  height: 75px;
+  height: 85px;
 }
 
 .nav li a:hover, .nav li a:focus {
@@ -129,7 +129,7 @@ p {
 .pattern-image:after {
   position: absolute;
   left: 0;
-  top: 155px;
+  top: 165px;
   width: 100%;
   height: 660px;
   z-index: 2;
@@ -145,12 +145,13 @@ p {
 }
 
 /* SERVICES */
-.services .row {
-  margin: 20px;
+.services .container-fluid {
+  height: 160px;
 }
 
 .services img {
-  margin: 20px;
+  position: relative;
+  left: 23%;
 }
 
 .services h3 {
@@ -158,24 +159,55 @@ p {
   text-align: center;
 }
 
-
-
-/* WORK */
-
 /* ABOUT */
+.about h1 {
+  color: #B36458;
+  text-align: center;
+  margin: 0;
+  height: 60px;
+}
 
 .about .col-md-4 {
   padding: 20px;
   text-align: center;
 }
 
-.about h2 {
-  color: #1b3160;
-}
-
 .about h3 {
   color: #1b3160;
 }
+
+.about p {
+  font-size: 18px;
+  color: #656565;
+}
+
+.line-separator {
+  position: absolute;
+  width: 196px;
+  border: 2px solid #B36458;
+  left: 42.2%;
+}
+
+.about .star p {
+  color: #B36458;
+  font-size: 30px;
+  font-family: Arial;
+  width: 150px;
+  margin: 0;
+  display: inline-block;
+  margin: 2px;
+}
+
+/* WORK */
+.work .container-fluid {
+  margin-left: 25px;
+}
+
+.work .row {
+  margin: 20px 30px 20px 30px;
+}
+
+
 /* REVIEWS */
 
 /* CONTACT */
