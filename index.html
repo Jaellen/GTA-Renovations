@@ -12,6 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://i.imgsafe.org/652b4a193c.png" rel="icon" type="image/png">
   </head>
   <body>
 
@@ -24,10 +25,10 @@
           </div>
           <div class="col-md-4" role="navigation">
               	<ul class="nav nav-pills">
-                    <li role="presentation"><a href="#">Work</a></li>
-                    <li role="presentation"><a href="#">About</a></li>
-                    <li role="presentation"><a href="#">Reviews</a></li>
-                    <li role="presentation"><a href="#">Hire Us</a></li>
+                    <li role="presentation"><a href="#" id="about">About</a></li>
+                    <li role="presentation"><a href="#" id="work">Work</a></li>
+                    <li role="presentation"><a href="#" id="reviews">Reviews</a></li>
+                    <li role="presentation"><a href="#" id="hire">Hire Us</a></li>
                 </ul>
           </div>
         </div>
@@ -45,7 +46,7 @@
     </div><br>
 
     <!-- SERVICES -->
-    <div class="services">
+    <div class="services" id="scroll-about">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-2">
@@ -81,7 +82,8 @@
       <div class="container">
         <div class="row">
           <h1>Our Values</h1>
-          <div class ="line-separator"></div>
+          <div class ="line-separator"></div><br><br>
+          <p>General Services & Renovations is a company with more than 20 years experience in construction and renovation services in Canada, the US, and South America. Our vast experience and reach allows us to have a deep understanding of our clients and immense vision and direction for their renovation projects. We are happy and committed to serve you and your most valuable personal asset, your home.</p>
           <div class="col-md-4">
               <h3>To be Honest and Trustworthy</h3><br>
               <p>Our promise to you is complete honesty. We are dedicated to completing your project with integrity and commitment, regardless of the scope of the project.</p>
@@ -99,7 +101,7 @@
     </div>
 
     <!-- WORK -->
-    <div class="work">
+    <div class="work" id="scroll-work">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -138,11 +140,11 @@
     </div>
 
     <!-- REVIEWS -->
-    <div class="reviews">
+    <div class="reviews" id="scroll-reviews">
       <div class="container-fluid">
         <div class="row">
           <h1>What Our Customers are Saying</h1>
-          <div class ="line-separator"></div><br><br>
+          <div class ="line-separator"></div><br><br><br>
           <div class="col-md-4">
               <a href="https://homestars.com/companies/2813701-general-services-and-renovations?service_area=1888720" target="_blank">
                  <blockquote>
@@ -181,54 +183,52 @@
           </div>
         </div>
       </div>
-    </div><br>
+    </div>
 
     <!-- CONTACT -->
-    <div class="contact">
-      <div class="container">
+    <div class="contact" id="scroll-hire">
+      <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
                 <h1>Contact Us</h1>
-                <form role="form">
+                <form role="form" action="mailto:washington@gtarenovation.com" method="get">
                     <div class="form-group">
                         <label for="name" class="label">Name</label>
                         <p class="first-name-error"></p>
                         <input type="text" class="form-control" id="first" placeholder="John Smith">
                     </div>
                     <div class="form-group">
-                        <label for="email" class="label">Email</label>
-                        <p class="email-error"></p>
-                        <input type="email" class="form-control" id="email" placeholder="j.smith@company.com">
-                    </div>
-                    <div class="form-group">
                         <label for="subject" class="label">Subject</label>
                         <p class="text"></p>
-                        <input type="email" class="form-control" id="subject" placeholder="Free Quote Request - Bathroom">
+                        <input type="text" class="form-control" id="subject" placeholder="Free Quote Request - Bathroom" name="subject">
                     </div>
                     <div class="form-group">
                         <label for="message" class="label">Message</label>
                         <p class="text"></p>
-                        <input type="text" class="form-control" id="message" placeholder="Hi, my name is Joe...">
+                        <input type="text" class="form-control" id="message" placeholder="Hi, my name is John..." name="body">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputFile" class="label">Attach a picture if it helps</label>
+                        <label for="exampleInputFile" class="label">Attach a Picture (optional)</label>
                         <input type="file" id="exampleInputFile">
                     </div><br>
                     <button type="submit" class="btn">Send</button><br>
                 </form>
-          </div>
-          <div class="col-md-6 col-md-offset-1">
-              <br>
-              <h3>General Services & Renovations<br>
-                 Washington Aellen, Owner <br><br>
-                 P: 416.833.1705<br>
-                 E: washington@gtarenovation.com<br><br>
-                 Serving Toronto and the GTA!</h3>
-              <div class="row">
-                    <img src="https://i.imgsafe.org/50a8bc3c30.png" height="150px" width="150px">
-                    <a href="#"><img src="https://i.imgsafe.org/4f65637db3.jpg" height="50px"></a>
-                    <a href="#"><img src="https://i.imgsafe.org/4f6592265f.png" height="50px"></a>
-              </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1"><br>
+                <h3>General Services & Renovations<br>
+                    Washington Aellen, Owner <br><br>
+                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;&nbsp; 416.833.1705<br>
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> &nbsp; washington@gtarenovation.com</h3><br>
+                <div class="row">
+                    <a href="https://www.facebook.com/generalservicesandrenovations/" target="_blank"><img id="facebook" src="https://i.imgsafe.org/4f65637db3.jpg" height="50px"></a>
+                    <a href="https://homestars.com/companies/2813701-general-services-and-renovations?service_area=1888720" target="_blank"><img id="homestars" src="https://i.imgsafe.org/4f6592265f.png" height="50px"></a>
+                    <br><br>
+                    <img src="https://i.imgsafe.org/64bec00570.png" height="150px" width="150px">
+                </div>
+            </div>
+            <div class="col-md-3 col-md-offset-1">
+                <h3>We service Toronto and the GTA! Contact us for a free quote.</h3><br>
+                <img src="https://i.imgsafe.org/62ccaae310.png" height="248px" width="248px" id="map">
             </div>
           </div>
         </div>
@@ -239,8 +239,8 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-3"
-              <h3>General Services & Renovations, LLC.</h3>
+          <div class="col-md-4"
+              <h3>© 2016 General Services & Renovations</h3>
           </div>
         </div>
       </div>
@@ -250,6 +250,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
 

@@ -199,7 +199,8 @@ p {
 
 /* REVIEWS */
 .reviews .row {
-  margin: 30px 0 0 0;
+  margin: 30px 0 0 20px;
+  padding: 0 40px 0 40px;
 }
 
 .reviews h1 {
@@ -239,19 +240,19 @@ p {
 }
 
 /* CONTACT */
-.contact .container {
-  margin: 0 10px;
+.contact .container-fluid {
+  margin: 0 10px 0 20px;
 }
 
 .contact .label {
+  font-family: Montserrat, sans-serif;
   color: #1b3160;
-  padding: 0;
-  font-family: Esteban, Georgia, 'Times New Roman', serif;
-  font-size: 20px;
-  font-style: normal;
+  margin-top: 93px;
+  font-size: 16px;
+  letter-spacing: normal;
   font-weight: normal;
-  letter-spacing: inherit;
-  line-height: 35px;
+  line-height: 30px;
+  text-transform: none;
 }
 
 .contact h1 {
@@ -259,24 +260,24 @@ p {
 }
 
 .contact h3 {
-  color: #B36458;
-  margin: 0;
+  color: #1b3160;
+  margin-top: 89px;
   font-size: 18px;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-transform: none;
 }
 
 .contact h2 {
   color: #1b3160;
 }
 
-.contact .col-md-5 .row {
-  margin: 0;
-}
-.contact .col-md-6 .row {
+.contact .col-md-4 .row {
   margin: 0;
 }
 
-.contact .col-md-6 .row img {
-  margin: 10px 20px 0 0;
+.contact .col-md-3 {
+  margin: 15px 0 0 0px;
 }
 
 .contact .form-control {
@@ -301,10 +302,28 @@ p {
   transition: 0.2s;
 }
 
+.contact #map {
+  border: 1px solid #1b3160;
+}
+
+.contact #facebook, .contact #homestars {
+  margin-right: 15px;
+}
+
 /* FOOTER */
 .footer {
   background-color: #1b3160;
   color: #fff;
+}
+
+.footer .col-md-4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-transform: none;
 }
 
 /* Media Queries */
