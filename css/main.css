@@ -5,6 +5,10 @@ html, body {
   padding: 0;
 }
 
+body {
+  width: 100%;
+}
+
 h1 {
   font-family: Montserrat, Helvetica, Arial, sans-serif;;
   font-size: 30px;
@@ -65,6 +69,9 @@ p {
 }
 
 /* HEADER */
+.header .nav, .header .nav-pills {
+  height: 30px;
+}
 
 .header .col-md-4 {
   float: right;
@@ -327,3 +334,62 @@ p {
 }
 
 /* Media Queries */
+
+@media (max-width: 1100px) {
+    .line-separator {
+      display: none;
+    }
+
+}
+
+@media (max-width: 645px) {
+    .header .row {
+      height: 115px;
+    }
+
+    .pattern-image:after {
+      top: 195px;
+    }
+
+    .header .col-md-4 {
+      margin-top: 100px;
+    }
+
+    .services .container-fluid {
+      height: 80px;
+    }
+
+    .services img {
+      height: 50px;
+      width: 50px;
+      left: 20px;
+    }
+
+    .services h3 {
+      display: none;
+    }
+
+    .about .row {
+      margin-top: 0;
+    }
+
+}
+
+@media (max-width: 513px) {
+    .header .col-md-4 {
+      margin-top: 15px;
+    }
+
+    h2, h1 {
+      font-size: 26px !important;
+    }
+
+    p {
+      font-size: 18px !important;
+    }
+
+    .reviews .col-md-4 {
+      margin-top: 140px;
+    }
+
+}
